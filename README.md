@@ -39,6 +39,6 @@ step 2: genera un Fork del Repo del Prof. e prova a cambiare il file che prima n
 
 step 3: Esegui esercizio 3 ma chiamando il branch "Esercizio4" e senza eseguire il Merge finale (fino a step 5)
 
-step 4: Invia un commneto alla Pull Request "Esercizio 4" nel Repo del Prof.per segnalare la consegna (il completamento dell'ES 4)
+step 4: Invia un commneto alla Pull Request "[Esercizio 4](https://github.com/Prof-Palitto/impariamoGH/pull/2)" nel Repo del Prof.per segnalare la consegna (il completamento dell'ES 4)
 
 step 5: monitorizza l'avvenuta correzzione da parte del Prof.
