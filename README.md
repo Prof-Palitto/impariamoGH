@@ -30,3 +30,15 @@ step 7: Verifica che la modifica è stata inserita nel Branch "main"
 step 8: Verifica il grafico che visualizza il Branch e il Merge
 
 NOTA: se hai bisogno di più dettagli di come eseguire i vari step chiedi al Prof....
+
+## Esercizio 4: Fork
+
+step 1: naviga al Repo del Porf. e prova ad editare uno dei files del prof...
+
+step 2: genera un Fork del Repo del Prof. e prova a cambiare il file che prima non ti lasciava cambiare
+
+step 3: Esegui esercizio 3 ma chiamando il branch "Esercizio4" e senza eseguire il Merge finale (fino a step 5)
+
+step 4: Invia un commneto alla Pull Request "Esercizio 4" nel Repo del Prof.per segnalare la consegna (il completamento dell'ES 4)
+
+step 5: monitorizza l'avvenuta correzzione da parte del Prof.
