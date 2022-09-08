@@ -28,3 +28,5 @@ step 6: Esegui il Merge del codice
 step 7: Verifica che la modifica è stata inserita nel Branch "main"
 
 step 8: Verifica il grafico che visualizza il Branch e il Merge
+
+NOTA: se hai bisogno di più dettagli di come eseguire i vari step chiedi al Prof....
