@@ -1,5 +1,5 @@
 # impariamoGH
-test per esercitazione su GH
+* [Introduzione a GITHUB (Per la Didattica)](https://docs.google.com/presentation/d/e/2PACX-1vQy6yuKZ_ewYe0XDskxTbNPvuUHiLfyMVasIEB7YVqZw9NObtHhF3joL_XDw2nBadLHdl5Ute6rAfOQ/pub?start=false&loop=false&delayms=10000)
 
 ## Prerequisiti
 * Creazione di Account su github.com
