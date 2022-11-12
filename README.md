@@ -17,15 +17,15 @@ step 1: crea nuovo Branch chiamato "Esercizio3"
 
 step 2: Modifica "newFile.txt" inserendo una ulteriore linea di testo e quindi commit le modifiche
 
-step 3: verifica che il Branch "main" non è stato modificato
+step 3: verifica che il file "newFile.txt" nel Branch "main" non sia stato modificato
 
-step 4: esegui una Pull Request per aggiornare il Branch "main" con le modifiche apportate nel Branch "Esercizio3"
+step 4: esegui una "Pull Request" per aggiornare il Branch "main" con le modifiche apportate nel Branch "Esercizio3"
 
 step 5: chiedi ad un compagno di visionare Esercizio 3 e di inserire un commento
 
 step 6: Esegui il Merge del codice
 
-step 7: Verifica che la modifica è stata inserita nel Branch "main"
+step 7: Verifica che la modifica sia stata inserita nel Branch "main"
 
 step 8: Verifica il grafico che visualizza il Branch e il Merge
 
