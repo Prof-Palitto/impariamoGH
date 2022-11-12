@@ -1,6 +1,17 @@
 # impariamoGH
 test per esercitazione su GH
 
+## Prerequisiti
+* Creazione di Account su github.com
+Registrati usando la tua email della scuola.
+
+Invito ad ognuno ad usare la seguente convenzione come nome utente:
+
+Prof: Prof-Nome-Cognome-JCMaxwell
+
+Studente:  Nome-Cognome-5Ai-2022-JCMaxwell
+
+* [Creazione Nuovo Progetto](https://youtu.be/47bZxjEwE_c)
 
 ## Esercizio 1: aggiungi file manualmente
 step 1: crea nuovo file "newFile.txt" e inserisci il testo in linea 1, inserisci testo in linea 2, commit il nuovo file
@@ -11,6 +22,8 @@ step 2: crea nuovo file "MATERIALI/README.md e inserisci il testo in linea 1"# E
 step 1: modifica il file "newFile.txt" inserendo del testo in una nuova linea tra linea 1 e linea 2 precedentemente inserite e esegui il commit
 
 step 2: verifica la storicità del file che è stato modificato
+
+### [Guida Video allgli esercizi 1 & 2: modifica progetto e visiona la storicità](https://youtu.be/jAusId8fp1g)
 
 ## Esercizio 3: Branching e Pull Request
 step 1: crea nuovo Branch chiamato "Esercizio3"
