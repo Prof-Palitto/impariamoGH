@@ -3,15 +3,10 @@ test per esercitazione su GH
 
 ## Prerequisiti
 * Creazione di Account su github.com
-Registrati usando la tua email della scuola.
 
-Invito ad ognuno ad usare la seguente convenzione come nome utente:
+![image](https://user-images.githubusercontent.com/94290557/201487323-88a14ef8-b3a7-4359-9bfd-88ba77004ba7.png)
 
-Prof: Prof-Nome-Cognome-JCMaxwell
-
-Studente:  Nome-Cognome-5Ai-2022-JCMaxwell
-
-* [Creazione Nuovo Progetto](https://youtu.be/47bZxjEwE_c)
+* [Creazione Nuovo Progetto (Guida Video)](https://youtu.be/47bZxjEwE_c)
 
 ## Esercizio 1: aggiungi file manualmente
 step 1: crea nuovo file "newFile.txt" e inserisci il testo in linea 1, inserisci testo in linea 2, commit il nuovo file
