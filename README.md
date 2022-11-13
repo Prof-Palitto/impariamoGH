@@ -26,7 +26,7 @@ Introduciamo un ***metodo*** che facilita la gestione di un progetto che deve es
 * L'aggiornamento non è banale e richiede tempo e molte modifiche
 * L'aggiornamento viene proposto da un collaboratore
 
-### [Introduzione al Branching e Pull Request](https://docs.google.com/presentation/d/e/2PACX-1vTEUX6JVUF_dxrxPhtN7qX8dJbUL4IT554ypH1pxKBkXhY0DLDiGZ5wNLOYLiRfvL-DZc2uwoi6vZID/pub?start=false&loop=false&delayms=3000)
+### Introduzione al Branching e Pull Request  [PRESENTAZIONE](https://docs.google.com/presentation/d/e/2PACX-1vTEUX6JVUF_dxrxPhtN7qX8dJbUL4IT554ypH1pxKBkXhY0DLDiGZ5wNLOYLiRfvL-DZc2uwoi6vZID/pub?start=false&loop=false&delayms=3000) | [VIDEO](https://youtu.be/tWNMzqhSmy4)
 
 ## Esercizio 3: Branching e Pull Request
 step 1: crea nuovo Branch chiamato "Esercizio3"
