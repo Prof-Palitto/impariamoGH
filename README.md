@@ -20,6 +20,14 @@ step 2: verifica la storicità del file che è stato modificato
 
 ### [Guida Video allgli esercizi 1 & 2: modifica progetto e visiona la storicità](https://youtu.be/jAusId8fp1g)
 
+# Effettuare modifiche ad un progetto condiviso e collaborativo
+
+Introduciamo un ***metodo*** che facilita la gestione di un progetto che deve essere aggiornato:
+* L'aggiornamento non è banale e richiede tempo e molte modifiche
+* L'aggiornamento viene proposto da un collaboratore
+
+### [Introduzione al Branching e Pull Request](https://docs.google.com/presentation/d/e/2PACX-1vTEUX6JVUF_dxrxPhtN7qX8dJbUL4IT554ypH1pxKBkXhY0DLDiGZ5wNLOYLiRfvL-DZc2uwoi6vZID/pub?start=false&loop=false&delayms=3000)
+
 ## Esercizio 3: Branching e Pull Request
 step 1: crea nuovo Branch chiamato "Esercizio3"
 
