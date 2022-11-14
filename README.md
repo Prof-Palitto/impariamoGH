@@ -50,9 +50,9 @@ step 8: Verifica il grafico che visualizza il Branch e il Merge
 
 #### [Guida Video all'esercizio 3](https://youtu.be/GYF2R_0r21w)
 
-### Esercizio 4: Come usare GitHub per la didattica
+### Esercizio 4: Domande e Risposte sugli argomenti trattati
 
-il Prof. deve aggiungere una sezione a questo file, per fare ciò ha creato una Pull Request. Visiona la Pull Request di questo Repo e intervieni nella conversazione.
+E' venuta l'ora di confrontarsi e aiutarci l'uno con l'altra, per fare ciò il Prof. ha creato una Pull Request. Visiona la Pull Request riguardo al Branch "Domande-e-Risposte" di questo Repo e intervieni nella conversazione.
 
 ## Fork <img src="https://user-images.githubusercontent.com/94290557/201693532-480ac324-2a5a-4a08-873f-33fe83584751.png" width="50" height="50" />
 
@@ -80,6 +80,24 @@ step 4: Invia un commeneto alla Pull Request "[Esercizio 5](https://github.com/P
 
 step 5: monitorizza l'avvenuta correzzione da parte del Prof.
 
+### Esercizio 6: Il Prof. ha bisogno del tuo aiuto
+
+Saluti a tutti, vorrei modificare il Progetto inserendo una sezione nel README file in cui inserire dei suggerimenti di come utilizzare GitHub nella didattica... mi interesserebbe inziare una conversazione in cui ognuno possa condividere delle idee... una specie di "Brain Storming"...
+
+Inserisci dei commenti nella Pull Request per entrare a far parte della discussione di classe su questa modifica (esercizio 4)
+
+Per divertirci un pò, a seconda degli interventi verranno attribuiti dei punteggi in questo modo:
+Interventi:
+
+0 - non significativi
+
+1 - significativi
+
+2 - Molto Sgnificativi
+
+Risposte: 0 - non significative/errate, 2 - significative/corrette, 4 - Molto significative/ben esposte e dettagliate
+
+Per la consegna assicurati di inserire il commento: @Prof-Palitto CONSEGNA + link del tuo Branch "Esercizio 4" entro la data di consegna GG/MM/YY
 ## Lezione 2
 
 ## Lezione 3
