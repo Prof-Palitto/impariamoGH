@@ -54,6 +54,20 @@ step 8: Verifica il grafico che visualizza il Branch e il Merge
 
 il Prof. deve aggiungere una sezione a questo file, per fare ciò ha creato una Pull Request. Visiona la Pull Request di questo Repo e intervieni nella conversazione.
 
+## Fork <img src="https://user-images.githubusercontent.com/94290557/201693532-480ac324-2a5a-4a08-873f-33fe83584751.png" width="50" height="50" />
+
+Una volta che abbiamo capito il **BRANCH**, capire il **FORK** è uno scherzo:
+
+Il Fork non è altro che la copia di un REPO che non mi appartiene, sotto il mio ACCOUNT.
+
+Infatti il **FORK** può essere pensato ad una copia di un progetto altrui (evidentemente Open Source), da cui partire e modificare a mio piacimento.
+
+Il Fork verrà registrato, e ne verrà tenuta traccia. In questo modo, sarà possibile fare delle modifiche personali ed eventualmente proporle al progetto di origine mediante una Pull Request... proprio come se fossi un collaboratore, anche se in realtà non faccio parte del team... 
+
+Quindi si comporta esattamente come un BRANCH, ma a differenza del BRANCH la copia viene trasferita nel mio ACCOUNT, così che, anche se non ho il permesso di modificare il progetto di origine, adesso che lo possiedo, posso fare tutte le modifiche che ritengo opportune... 
+
+Ho quindi la possibilità di derivarne un progetto MIO, oppure, fare delle modifiche ed eventualmente proporle al Team di appartenenza del progetto originale.
+
 ### Esercizio 5: Fork
 
 step 1: naviga al Repo del Porf., selezional il progetto [LabSist2c-2022](https://github.com/Prof-Palitto/LabSist2C-2022) e prova ad editare uno dei files...
