@@ -1,5 +1,5 @@
 # impariamoGH
-## Lezione 1
+## Lezione 1 - GITHUB WEB 
 * [Introduzione a GITHUB (Per la Didattica)](https://docs.google.com/presentation/d/e/2PACX-1vQy6yuKZ_ewYe0XDskxTbNPvuUHiLfyMVasIEB7YVqZw9NObtHhF3joL_XDw2nBadLHdl5Ute6rAfOQ/pub?start=false&loop=false&delayms=10000)
 
 ### Prerequisiti agli esercizi
@@ -98,6 +98,20 @@ Interventi:
 Risposte: 0 - non significative/errate, 2 - significative/corrette, 4 - Molto significative/ben esposte e dettagliate
 
 Per la consegna assicurati di inserire il commento: @Prof-Palitto CONSEGNA + link del tuo Branch "Esercizio 4" entro la data di consegna GG/MM/YY
-## Lezione 2
+## Lezione 2 Command Line GIT
+Nella scorsa lezione abbiamo usato GITHUB per gestire un progetto mediante l'interfaccia WEB, normalmente GITHUB si usa come "magazzino remoto"(Remote Repository) e lo sviluppo del codice avviene sul proprio Personal Computer.
+
+In effetti, per lo sviluppo del codice abbiamo bisogno di strumenti non disponibili su GitHUb come un editore più evoluto, un compilatore... quindi abbiamo bisogno che il prgetto risieda sul computer in cui sviluppiamo, e usiamo GitHub per mantenerne una copia sulla nuvola con tutti i vantaggi offerti e discussi la lezione scorsa.
+
+La copia locale (sul nostro PC) verrà gestita da un GIT Client che si sincronizza con la copia remota su GitHub.
+```
+GIT Client <--> GitHub (Remote Repository)
+```
+### Git Client
+Ci sono molte versioni disponibili per qualsiasi piattaforma del GIT Client, le seguenti sono le mie raccomandazioni:
+* Windows: [Git for Windows](https://gitforwindows.org/) che offre un Client sia a "linea di comando" che GUI
+* Linux(Ubuntu): `apt install git` che offre un Client a "linea di comando" 
+
+
 
 ## Lezione 3
