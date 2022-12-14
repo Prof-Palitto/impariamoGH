@@ -124,6 +124,13 @@ git init
 ```
 Questo crea una sotto-cartella "nascosta" **.git** contenente tutte le informazioni necessarie per il suo corretto funzionamento.
 
+Dobbiamo quindi dire a GIT chi siamo
+```
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+```
+Nel caso volessimo avere una identità differente per ogni progetto, possiamo 
+
 Siamo pronti a iniziare il nostro progetto e cioè ad aggiungere dei files all'interno della cartella.
 
 #### Staging e Commit
@@ -147,6 +154,15 @@ No commits yet
 Changes to be committed:
   (use "git rm --cached ..." to unstage)
     new file: index.html
+```
+Per effettuare la "pubblicazione" vera e propria, si usa il comando `git commit`
+
+ma....
+
+se provate ad eseguire il comando 
+
+```
+git commit -m "messaggio per spiegare le modifiche fatte"
 ```
 
 ## Lezione 3
