@@ -108,10 +108,21 @@ La copia locale (sul nostro PC) verrà gestita da un GIT Client che si sincroniz
 GIT Client <--> GitHub (Remote Repository)
 ```
 ### Git Client
+#### Installazione
 Ci sono molte versioni disponibili per qualsiasi piattaforma del GIT Client, le seguenti sono le mie raccomandazioni:
 * Windows: [Git for Windows](https://gitforwindows.org/) che offre un Client sia a "linea di comando" che GUI
 * Linux(Ubuntu): `apt install git` che offre un Client a "linea di comando" 
 
+#### Configurazione
+Per creare un progetto **myProject** basta creare una cartella 'myProject' in cui risiederanno tutti i files (organizzati nelle eventuali sottocartelle).
+
+Per indicare che intendiamo gestire il progetto con GIT, una volta entrati nella cartella del progetto, invochiamo il comando `git init`
+```
+mkdir myProject
+cd myProject
+git init
+```
+Questo
 
 
 ## Lezione 3
