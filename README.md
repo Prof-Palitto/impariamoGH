@@ -122,7 +122,31 @@ mkdir myProject
 cd myProject
 git init
 ```
-Questo
+Questo crea una sotto-cartella "nascosta" **.git** contenente tutte le informazioni necessarie per il suo corretto funzionamento.
 
+Siamo pronti a iniziare il nostro progetto e cioè ad aggiungere dei files all'interno della cartella.
+
+#### Staging e Commit
+Normalmente un progetto è composto da un insieme di files e l'avanzamento dello sviluppo comporta la modifica di un gruppo di files.
+
+Questo significa che alcuni files sono ancora in uno stato di "working in progresss", cioè ci stiamo ancora lavorando e non siamo pronti per renderli pubblici agli altri membri del gruppo di sviluppo, mentre ci sono dei files che sono stati modificati e che ci riteniamo soddisfatti e siamo quindi pronti alla loro pubblicazione al resto del gruppo di lavoro...
+
+Per indicare quali files possono essere "pubblicati"(committed), usiamo `git add filename`, per controllare la lista dei files che abbiamo inserito
+possiamo usare il comando `git status`
+
+```
+git add index.html
+```
+
+```
+git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached ..." to unstage)
+    new file: index.html
+```
 
 ## Lezione 3
