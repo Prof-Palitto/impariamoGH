@@ -118,8 +118,8 @@ Per creare un progetto **myProject** basta creare una cartella 'myProject' in cu
 
 Per indicare che intendiamo gestire il progetto con GIT, una volta entrati nella cartella del progetto, invochiamo il comando `git init`
 ```
-mkdir myProject
-cd myProject
+mkdir -p progetti/myProject
+cd progetti/myProject
 git init
 ```
 Questo crea una sotto-cartella "nascosta" **.git** contenente tutte le informazioni necessarie per il suo corretto funzionamento.
@@ -162,7 +162,18 @@ git commit -m "messaggio per spiegare le modifiche fatte"
 ```
 
 #### Remote Repository (GitHub)
-Per poter usare GitHub come Server dobbiamo creare un associazione
+Per poter usare GitHub come Server dobbiamo creare un associazione ad un progetto già presente su GitHub...
+
+Da interfaccia WEB crea il nuovo Repo se non già fatto...
+
+Per creare una copia (CLONE) del progetto su GitHub nel notro PC:
+```
+cd progetti
+git clone https://github.com/Prof-Palitto/nuovo-progetto.git
+```
+Questo comando andrà a creare una cartella **nuovo-progetto** che è una copia di quello su GitHub già settata per la gestione con GIT
+
+per creare l'associazione vera e propria:
 
 **git remote add origin URL** dove **origin** indica che da adesso in poi il luogo ufficiale di residenza del progetto è identificato dal **URL** specificato.
 
@@ -179,14 +190,17 @@ compila:
 
 Premi **generate token** 
 
+
 copia il token e inseriscilo nel comando seguente:
 
 `git remote add origin https://`**yourToken**@`github.com/Prof-Palitto/nuovo-progetto.git` nel caso non lo avessi già fatto
 
-oppure 
+ci da errore perche il comando di CLONE ha creato un'associazione, ma senza il token di sicurezza e quindi...
 
-`git remote set-url origin https://`**yourToken**@`github.com/Prof-Palitto/nuovo-progetto.git` nel caso fosse già configurato e volessi sostituirlo
+nel caso ORIGIN fosse già configurato (il nostro caso) e volessi sostituirlo
 
-`git push --set-upstream origin master` per fare modo che il Branch 'master' venga sincronizzato con il **remote** branch 'master' from 'origin'(GitHub).
+`git remote set-url origin https://`**yourToken**@`github.com/Prof-Palitto/nuovo-progetto.git` 
+
+Adesso possiamo eseguire i comandi "PULL" e "PUSH"
 
 ## Lezione 3
