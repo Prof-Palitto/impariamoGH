@@ -203,4 +203,7 @@ nel caso ORIGIN fosse già configurato (il nostro caso) e volessi sostituirlo
 
 Adesso possiamo eseguire i comandi "PULL" e "PUSH"
 
+#### PULL
+
+
 ## Lezione 3
