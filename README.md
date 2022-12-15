@@ -113,13 +113,24 @@ Ci sono molte versioni disponibili per qualsiasi piattaforma del GIT Client, le 
 * Windows: [Git for Windows](https://gitforwindows.org/) che offre un Client sia a "linea di comando" che GUI
 * Linux(Ubuntu): `apt install git` che offre un Client a "linea di comando" 
 
+#### per QUESTA Lezione
+Usiamo una macchina virtuale gentilmente offerta da [Replit.com](https://replit.com/~)
+
+Se ancora non avete un Account potete fare il SignUp e usare Google con l'Account della scuola
+
+Una volta fatto il LogIn|SignUp premiamo il tasto "+ Create" e selezioniamo **Blank Repl** nel "title" inseriamo **progetti** e quindi premiamo il tasto **+ Create Repl**
+
+Premete x(close) nella scheda centrale(README.md) 
+
+Selezionate la scheda **Shell** e questa sarà la nostra riga di comando della macchina virtuale che GIT già installato.
+
 #### Configurazione
 Per creare un progetto **myProject** basta creare una cartella 'myProject' in cui risiederanno tutti i files (organizzati nelle eventuali sottocartelle).
 
 Per indicare che intendiamo gestire il progetto con GIT, una volta entrati nella cartella del progetto, invochiamo il comando `git init`
 ```
-mkdir -p progetti/myProject
-cd progetti/myProject
+mkdir -p myProject
+cd myProject
 git init
 ```
 Questo crea una sotto-cartella "nascosta" **.git** contenente tutte le informazioni necessarie per il suo corretto funzionamento.
@@ -147,6 +158,8 @@ git add index.html
 
 ```
 git status
+```
+```
 On branch master
 
 No commits yet
@@ -155,11 +168,18 @@ Changes to be committed:
   (use "git rm --cached ..." to unstage)
     new file: index.html
 ```
+Oh NO! Ho fatto un ERRORE... ho inserito nella lista un file che non intendevo...
+
+Per rimuoverlo posso usare il comando `git reset filename`
+
+Una volta soddisfatto di quanto ottenuto, e dopo essermi assicurato che tutti i files che intendo pubblicare siano inclusi nella lista...
+
 Per effettuare la "pubblicazione" vera e propria, si usa il comando `git commit`
 
 ```
 git commit -m "messaggio per spiegare le modifiche fatte"
 ```
+Tutti i files che avevamo aggiunto nella lista dei files da tracciare/da pubblicare verranno quindi pubblicati... e quindi pronti per essere condivisi con gli altri...
 
 #### Remote Repository (GitHub)
 Per poter usare GitHub come Server dobbiamo creare un associazione ad un progetto già presente su GitHub...
