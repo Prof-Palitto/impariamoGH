@@ -157,12 +157,36 @@ Changes to be committed:
 ```
 Per effettuare la "pubblicazione" vera e propria, si usa il comando `git commit`
 
-ma....
-
-se provate ad eseguire il comando 
-
 ```
 git commit -m "messaggio per spiegare le modifiche fatte"
 ```
+
+#### Remote Repository (GitHub)
+Per poter usare GitHub come Server dobbiamo creare un associazione
+
+**git remote add origin URL** dove **origin** indica che da adesso in poi il luogo ufficiale di residenza del progetto è identificato dal **URL** specificato.
+
+Nel nostro caso sarà l'URL del nostro account di GitHub che nel mio caso corrisponde a **https://github.com/Prof-Palitto/nuovo-progetto.git**
+
+Per motivi di sicurezza GitHub ci chiede di generare un **token** da utilizzare per le operazioni dal client:
+
+**GitHub.com --> my profile (icona in alto a destra)  --> Settings --> Developer settings --> Personal access token -->  Tokens (classic) --> Generate New Token**
+
+compila: 
+* Note (what is this token for?)
+* Expiration (seleziona: No Expiration)
+* Select Scope (flag Repo)
+
+Premi **generate token** 
+
+copia il token e inseriscilo nel comando seguente:
+
+`git remote add origin https://`**yourToken**@`github.com/Prof-Palitto/nuovo-progetto.git` nel caso non lo avessi già fatto
+
+oppure 
+
+`git remote set-url origin https://`**yourToken**@`github.com/Prof-Palitto/nuovo-progetto.git` nel caso fosse già configurato e volessi sostituirlo
+
+`git push --set-upstream origin master` per fare modo che il Branch 'master' venga sincronizzato con il **remote** branch 'master' from 'origin'(GitHub).
 
 ## Lezione 3
