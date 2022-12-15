@@ -224,6 +224,48 @@ nel caso ORIGIN fosse già configurato (il nostro caso) e volessi sostituirlo
 Adesso possiamo eseguire i comandi "PULL" e "PUSH"
 
 #### PULL
+Quando lavoriamo in gruppo allo stesso progetto con dei collaboratori, prima di iniziare la nuova giornata di lavoro voglio vedere se qualcuno ha aggiornato dei files, e eventualmente aggiornare i files che risiedono nel mio PC.
+
+E' quindi una buona abitudine iniziare con una operazione di PULL da GITHUB
+`git pull`
+
+#### PUSH
+Ho eseguito un COMMIT sul mio REPO locale (sul mio PC) e voglio renderlo disponibile al resto del gruppo di lavoro...
+
+Per aggiornare la copia **ufficiale** mantuenuta sul server di GITHUB eseguo il comando di PUSH
+`git push`
+
+#### BRANCHes
+per visualizzare il branch corrente il comando `git branch`
+
+per creare un nuovo branch `git branch nuovo-branch`
+
+per lavorare al nuovo branch `git checkout nuovo-branch`
+
+le modifiche sul nuovo-branch non modificano il branch **master**
+
+nel caso in cui lavoro sul nuovo-branch con altre persone, o nel caso in cui voglio mantenere una copia del branch su github
+
+`git push --set-upstream origin nuovo-branch` per creare il branch anche su GitHub
+
+i seguenti PUSH saranno dei comandi semplici `git push`
+
+#### Tornare ad una versione precedente
+Il version control ci permette di tornare a versioni precedenti nel caso in cui ne avessimo bisogno...
+
+`git log --pretty=oneline` per vedere la storicità del progetto (in versione ridotta ad una linea per COMMIT)
+
+per ritornare alla versione precedente del progetto `git reset --hard <commit>`
+
+WARNING: tutto il lavoro fatto dopo il commit a cui si torna verrà perso!!!
+
+Una strategia alternativa è quella di 
+1. creare un nuovo branch
+2. andare alla versione precedente  nel nuovo branch
+3. rendere il nuovo branch il "MAIN" (eventualmente)
+
+
+
 
 
 ## Lezione 3
