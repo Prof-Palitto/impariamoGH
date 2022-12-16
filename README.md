@@ -193,7 +193,7 @@ WARNING: tutto il lavoro fatto dopo il commit a cui si torna verrà perso!!!
 Una strategia alternativa è quella di 
 1. creare un nuovo branch `git branch nuovoBRANCH`
 2. andare alla versione precedente  nel nuovo branch `git reset --hard <commit>`
-3. rendere il nuovo branch il "MAIN" (eventualmente) da interfaccia WEB (dopo aver fatto il PUSH)
+3. rendere il nuovo branch il "MAIN" (eventualmente) da interfaccia WEB (dopo aver fatto il PUSH... che vedremo)
 
 #### Remote Repository (GitHub) - git clone
 Per poter usare GitHub come Server dobbiamo creare un'associazione ad un progetto già presente su GitHub...
@@ -264,6 +264,14 @@ nel caso in cui lavoro sul nuovo-branch con altre persone, o nel caso in cui vog
 
 i PUSH seguenti saranno dei comandi semplici `git push`
 
+
+#### Esempio pratico
+
+supponiamo di avere un Repo con il seguente contenuto:
+
+esercizio 1 --> soluzione 1 --> esercizio 2 --> soluzione 2 --> esercizio 3 --> soluzione 3
+
+gli esercizi 2 & 3 aggiungono cose da fare a partire da esercizio 1 & 2
 
 
 
