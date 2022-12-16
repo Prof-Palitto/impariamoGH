@@ -253,16 +253,16 @@ i seguenti PUSH saranno dei comandi semplici `git push`
 #### Tornare ad una versione precedente
 Il version control ci permette di tornare a versioni precedenti nel caso in cui ne avessimo bisogno...
 
-`git log --pretty=oneline` per vedere la storicità del progetto (in versione ridotta ad una linea per COMMIT)
+`git log --graph --abbrev-commit --decorate --date=relative --all` per vedere la storicità del progetto (in versione ridotta ad una linea per COMMIT)
 
 per ritornare alla versione precedente del progetto `git reset --hard <commit>`
 
 WARNING: tutto il lavoro fatto dopo il commit a cui si torna verrà perso!!!
 
 Una strategia alternativa è quella di 
-1. creare un nuovo branch
-2. andare alla versione precedente  nel nuovo branch
-3. rendere il nuovo branch il "MAIN" (eventualmente)
+1. creare un nuovo branch `git branch nuovoBRANCH`
+2. andare alla versione precedente  nel nuovo branch `git reset --hard <commit>`
+3. rendere il nuovo branch il "MAIN" (eventualmente) da interfaccia WEB (dopo aver fatto il PUSH)
 
 
 
