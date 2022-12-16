@@ -140,7 +140,7 @@ Dobbiamo quindi dire a GIT chi siamo
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 ```
-Nel caso volessimo avere una identità differente per ogni progetto, possiamo 
+Nel caso volessimo avere una identità differente per ogni progetto, possiamo  omettere l'opzione `--global``
 
 Siamo pronti a iniziare il nostro progetto e cioè ad aggiungere dei files all'interno della cartella.
 
@@ -149,8 +149,9 @@ Normalmente un progetto è composto da un insieme di files e l'avanzamento dello
 
 Questo significa che alcuni files sono ancora in uno stato di "working in progresss", cioè ci stiamo ancora lavorando e non siamo pronti per renderli pubblici agli altri membri del gruppo di sviluppo, mentre ci sono dei files che sono stati modificati e che ci riteniamo soddisfatti e siamo quindi pronti alla loro pubblicazione al resto del gruppo di lavoro...
 
-Per indicare quali files possono essere "pubblicati"(committed), usiamo `git add filename`, per controllare la lista dei files che abbiamo inserito
-possiamo usare il comando `git status`
+Per indicare quali files possono essere "pubblicati"(committed), usiamo `git add filename`.
+
+Per controllare la lista dei files che abbiamo inserito possiamo usare il comando `git status`
 
 ```
 git add index.html
@@ -174,17 +175,30 @@ Per rimuoverlo posso usare il comando `git reset filename`
 
 Una volta soddisfatto di quanto ottenuto, e dopo essermi assicurato che tutti i files che intendo pubblicare siano inclusi nella lista...
 
-Per effettuare la "pubblicazione" vera e propria, si usa il comando `git commit`
-
+eseguo la "pubblicazione" vera e propria, usando il comando
 ```
 git commit -m "messaggio per spiegare le modifiche fatte"
 ```
-Tutti i files che avevamo aggiunto nella lista dei files da tracciare/da pubblicare verranno quindi pubblicati... e quindi pronti per essere condivisi con gli altri...
+Tutti i files che avevamo aggiunto nella lista dei files da tracciare/da pubblicare verranno quindi pubblicati... e quindi pronti per essere condivisi con gli altri (usando GITHUB)...
 
-#### Remote Repository (GitHub)
-Per poter usare GitHub come Server dobbiamo creare un associazione ad un progetto già presente su GitHub...
+#### Tornare ad una versione precedente
+Il version control ci permette di tornare a versioni precedenti nel caso in cui ne avessimo bisogno...
 
-Da interfaccia WEB crea il nuovo Repo se non già fatto...
+`git log --graph --abbrev-commit --decorate --date=relative --all` per vedere la storicità del progetto (in versione ridotta ad una linea per COMMIT)
+
+per ritornare alla versione precedente del progetto `git reset --hard <commit>`
+
+WARNING: tutto il lavoro fatto dopo il commit a cui si torna verrà perso!!!
+
+Una strategia alternativa è quella di 
+1. creare un nuovo branch `git branch nuovoBRANCH`
+2. andare alla versione precedente  nel nuovo branch `git reset --hard <commit>`
+3. rendere il nuovo branch il "MAIN" (eventualmente) da interfaccia WEB (dopo aver fatto il PUSH)
+
+#### Remote Repository (GitHub) - git clone
+Per poter usare GitHub come Server dobbiamo creare un'associazione ad un progetto già presente su GitHub...
+
+Da interfaccia GitHub WEB creo il nuovo Repo se non già fatto...
 
 Per creare una copia (CLONE) del progetto su GitHub nel notro PC:
 ```
@@ -197,7 +211,7 @@ per creare l'associazione vera e propria:
 
 **git remote add origin URL** dove **origin** indica che da adesso in poi il luogo ufficiale di residenza del progetto è identificato dal **URL** specificato.
 
-Nel nostro caso sarà l'URL del nostro account di GitHub che nel mio caso corrisponde a **https://github.com/Prof-Palitto/nuovo-progetto.git**
+Nel mio caso sarà l'URL del mio account su GitHub  **https://github.com/Prof-Palitto/nuovo-progetto.git**
 
 Per motivi di sicurezza GitHub ci chiede di generare un **token** da utilizzare per le operazioni dal client:
 
@@ -248,21 +262,8 @@ nel caso in cui lavoro sul nuovo-branch con altre persone, o nel caso in cui vog
 
 `git push --set-upstream origin nuovo-branch` per creare il branch anche su GitHub
 
-i seguenti PUSH saranno dei comandi semplici `git push`
+i PUSH seguenti saranno dei comandi semplici `git push`
 
-#### Tornare ad una versione precedente
-Il version control ci permette di tornare a versioni precedenti nel caso in cui ne avessimo bisogno...
-
-`git log --graph --abbrev-commit --decorate --date=relative --all` per vedere la storicità del progetto (in versione ridotta ad una linea per COMMIT)
-
-per ritornare alla versione precedente del progetto `git reset --hard <commit>`
-
-WARNING: tutto il lavoro fatto dopo il commit a cui si torna verrà perso!!!
-
-Una strategia alternativa è quella di 
-1. creare un nuovo branch `git branch nuovoBRANCH`
-2. andare alla versione precedente  nel nuovo branch `git reset --hard <commit>`
-3. rendere il nuovo branch il "MAIN" (eventualmente) da interfaccia WEB (dopo aver fatto il PUSH)
 
 
 
