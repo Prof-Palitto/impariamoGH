@@ -300,4 +300,25 @@ echo cartella-nascosta >> .gitignore  #ignora nei prossimi commits la cartella i
 git rm --cached cartella-nascosta     #mi assicuro che la cartellla venga rimossa dalla gestione di GIT
 git commit -m "Inizia a nascondere la cartella-nascosta"
 ```
+#### Esercizio 1
+1. Crea un nuovo Repo **privato** su GitHub "Esercizi-Classi-4te"
+2. Da Client CLONA il nuovo Repo
+3. crea nuovo file **esercizio1.txt**
+4. aggiorna README.md
+5. esegui **commit** con commento "esercizio 1"
+6. ripeti steps 3-5 per "esercizio 2" e  "esercizio 3"
+7. esegui il PUSH e verifica su GitHub la presenza di tutti i files e di tutti i **commits**
+
+#### Esercizio 2
+1. Crea nuovo Repo **pubblico** su GitHub "Esercizi-Classe-4Ci-2022"
+2. Da Client CLONA il nuovo Repo
+3. dal nuovo Repo clona il Repo dell'Esercizio 1 "Esercizi-Classi-4te"
+4. inserisci la cartella **Esercizi-Classi-4te** all'interno del file **.gitignore**
+5. esegui il **commit** verifica che la cartella "Esercizi-Classi-4te" non venga considerata
+6. Entra nella cartella "Esercizi-Classi-4te" ed esegui il **checkout** che corrisponde all'**esercizio 1**
+7. Ritorna alla cartella principale copia i files della cartella "Esercizi-Classi-4te" nella cartella principale
+8. esegui **commit** con commento "esercizio 1"
+9. esegui il PUSH e verifica la presenza su GitHub del file **esercizio1.txt** e del aggiornamento del file **README.md**
+10. Ripeti gli steps 6-9 per  "esercizio 2" e  "esercizio 3"
+ 
 ## Lezione 3
