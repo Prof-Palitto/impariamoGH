@@ -293,7 +293,7 @@ uno potrebbe avere il proprio esercizio completo, incluso le soluzioni, in un pr
 
 Si potrebbe quindi avere un **nuovo Repo** pubblico per ogni classe, creare una **cartella nascosta** in cui inserire mediante un "CLONE" l'esercizio completo. Eseguire il checkout del **commit** corrispondente all'**esercizio 1** nella cartella nascosta, copiare i files dalla cartella nascosta i quella "ufficiale" ed eseguire il commit della cartella ufficiale.
 
-NOTA: Per nacondere la cartella agli studenti nel proprio **Repo Locale** (quello che risiede nel proprio PC) si può usare il file **.gitignore** da inserire nella cartella principale del **nuovo Repo**
+NOTA: Per nacondere la cartella agli studenti, nel proprio **Repo Locale** (quello che risiede nel proprio PC), si può usare il file **.gitignore** da inserire nella cartella principale del **nuovo Repo**
 
 ```
 echo cartella-nascosta >> .gitignore  #ignora nei prossimi commits la cartella inserita nel file .gitignore
