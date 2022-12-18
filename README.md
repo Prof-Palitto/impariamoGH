@@ -273,8 +273,25 @@ esercizio 1 --> soluzione 1 --> esercizio 2 --> soluzione 2 --> esercizio 3 --> 
 
 gli esercizi 2 & 3 aggiungono cose da fare a partire da esercizio 1 & 2
 
+Naturalmente non voglio pubblicare tutto insieme... ma uno step alla vota
 
+Potrei penseare di creare un Repo per quella classe, inserire il testo per **esercizio 1** fare un **commit**
 
+Gli studenti eseguono il **Fork** del progetto e sviluppano il programma per **esercizio 1** e lo consegnano su **Classroom**
 
+NOTA: gli studenti vengono istruiti a eseguire i **commit** frequentemente e l'ultimo, quello destinato alla consegna, inseriscono nel commento del **commit** "Consegna Esercizio 1"
 
+Una volta corretto e assegnato i vari voti agli stundenti, inserisco la **soluzione 1** ufficiale e la pubblico con un ulteriore **commit**
+
+Inserisco quindi l'**esercizio 2** e lo pubblico con un ulteriore **commit**
+
+Questa volta gli studenti **copiano** il testo dell'**esercizio 2** nel loro **Repo** personale e continuano a modificare il prprio progetto.
+
+NOTA: se qualche studente rimane indietro, una strategia potrebbe essere quella di chiedere allo studente di **copiare** la soluzione offerta dal Prof. per poter svolgere l'**esercizo 2**, oppure quella di continuare con l'**esercizio 1** fino a che la sua soluzione non funzioni correttamente.
+##### Strategia per l'esempio pratico
+uno potrebbe avere il proprio esercizio completo, incluso le soluzioni, in un progetto **privato** in modo da poterlo poi utilizzare per diverse classi e in diversi anni.
+
+Si potrebbe quindi avere un **nuovo Repo** pubblico per ogni classe, creare una **cartella nascosta** in cui inserire mediante un "CLONE" l'esercizio completo. Eseguire il checkout del **commit** corrispondente all'**esercizio 1** nella cartella nascosta, copiare i files dalla cartella nascosta i quella "ufficiale" ed eseguire il commit della cartella ufficiale.
+
+NOTA: anche se gli studenti vedessero la cartella nascosta, non potrebbero accedervi!
 ## Lezione 3
